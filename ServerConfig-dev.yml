@@ -9,8 +9,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ZARAYACH/microservicesTp.git
-          # clone-on-start: true
+          uri: https://github.com/AsmaaAchkal/TpMicroservices-config
+          clone-on-start: true
           # default-label: master
           # search-paths: configFiles
 
