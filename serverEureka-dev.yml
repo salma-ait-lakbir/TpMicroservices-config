@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: serverEureka
+server:
+  port: 8761
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: true
+  server:
+    renewalPercentThreshold: 0.49
